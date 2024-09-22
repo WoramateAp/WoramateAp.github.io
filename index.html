@@ -20,41 +20,45 @@
       <div class="row">
         <div class="col-xs-12">
           <p>
-          ความเหมือนกัน
+          <b>ความเหมือนกัน</b><br>
 
-ทั้งสามภาษามีแนวคิดพื้นฐานของ OOP ที่คล้ายคลึงกัน เช่น คลาส (Class), ออบเจกต์ (Object), การสืบทอด (Inheritance), การห่อหุ้ม (Encapsulation), การมีหลายรูปร่าง (Polymorphism), และการประกอบ (Composition) 
+- ทั้งสามภาษามีแนวคิดพื้นฐานของ OOP ที่คล้ายคลึงกัน เช่น คลาส (Class), ออบเจกต์ (Object), การสืบทอด (Inheritance), การห่อหุ้ม (Encapsulation), การมีหลายรูปร่าง (Polymorphism), และการประกอบ (Composition)<br>
 
-Java, C++, และ Python สามารถสร้างคลาสและออบเจกต์ได้ และสามารถกำหนดคุณลักษณะ (Attributes) และเมธอด (Methods) ภายในคลาสได้ 
+- Java, C++, และ Python สามารถสร้างคลาสและออบเจกต์ได้ และสามารถกำหนดคุณลักษณะ (Attributes) และเมธอด (Methods) ภายในคลาสได้<br>
 
-ทั้งสามภาษารองรับการสืบทอด ทำให้สามารถสร้างคลาสใหม่ที่สืบทอดคุณสมบัติจากคลาสเดิมได้
+- ทั้งสามภาษารองรับการสืบทอด ทำให้สามารถสร้างคลาสใหม่ที่สืบทอดคุณสมบัติจากคลาสเดิมได้<br>
 
-ทั้งสามภาษารองรับ polymorphism ซึ่งช่วยให้สามารถใช้เมธอดเดียวกันแต่ทำงานแตกต่างกันตามชนิดของออบเจกต์ที่เรียกใช้
+- ทั้งสามภาษารองรับ polymorphism ซึ่งช่วยให้สามารถใช้เมธอดเดียวกันแต่ทำงานแตกต่างกันตามชนิดของออบเจกต์ที่เรียกใช้<br>
+            
+            <b>ความแตกต่าง</b><br>
+
+1.ประกาศชนิดข้อมูล<br>
+
+- Java และ C++: ทั้งสองภาษาเป็นภาษาที่ต้องประกาศชนิดข้อมูลอย่างชัดเจน (Statically-Typed) ดังนั้นชนิดของตัวแปรต้องถูกกำหนดตั้งแต่ตอนเขียนโปรแกรม และไม่สามารถเปลี่ยนชนิดได้ในภายหลัง<br>
+
+- Python: เป็นภาษาที่ไม่ต้องประกาศชนิดข้อมูล (Dynamically-Typed) ซึ่งชนิดของตัวแปรจะถูกกำหนดโดยอัตโนมัติตามค่าที่ถูกกำหนด และสามารถเปลี่ยนชนิดข้อมูลได้<br>
+
+2.การจัดการหน่วยความจำ<br>
+
+- C++: ผู้เขียนโปรแกรมมีอิสระในการจัดการหน่วยความจำเองผ่านการใช้ new และ delete ซึ่งทำให้มีความยืดหยุ่นสูง แต่ก็มีความเสี่ยงในการเกิด memory leak<br>
+
+- Java และ Python: ทั้งสองภาษามี garbage collector ที่ช่วยจัดการหน่วยความจำโดยอัตโนมัติ ทำให้การเขียนโปรแกรมง่ายขึ้นในแง่ของการจัดการหน่วยความจำ<br>
+
+3.Multiple Inheritance<br>
+
+- C++: รองรับ multiple inheritance ซึ่งทำให้คลาสสามารถสืบทอดจากคลาสพ่อแม่ได้หลายคลาส<br>
+
+- Java: ไม่รองรับ multiple inheritance ในรูปแบบคลาส แต่สามารถใช้ interfaces เพื่อจำลองความสามารถนี้ได้<br>
+
+- Python: รองรับ multiple inheritance โดยตรงผ่านการสืบทอดจากหลายคลาส<br>
+
+4.Exception Handling<br>
+
+- Java และ Python: มีระบบจัดการข้อยกเว้นที่ค่อนข้างคล้ายคลึงกัน โดยใช้คำสั่ง try, catch (หรือ except ใน Python) และ finally<br>
+
+- C++: มีระบบจัดการข้อยกเว้นที่แตกต่างกันเล็กน้อย โดยใช้คำสั่ง try, catch, และ throw<br>
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-6">
-          <p>Always 1/2 half page column.</p>
-        </div>
-        <div class="col-xs-6">
-          <p>Always 2/2 half page column.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <p>Column 1 resizes according to page size.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <p>Column 2 also resizes.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <p>Column 3 resizes too.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
-          <p>Column 4 also too does indeed resize.</p>
-        </div>
-      </div>
-    </div>
-
   </body>
 </html>
